@@ -11,7 +11,7 @@ public class Coche {
         this.anio = anio;
     }
 
-    public String mostrarInfo() {
-        return  "Marca: " + marca + ", Modelo: " + modelo + ", Año: " + anio;
+    public String mostrarInfoCoche() {
+        return  "Coche\nMarca: " + marca + ", Modelo: " + modelo + ", Año: " + anio + "\n";
     }
 }

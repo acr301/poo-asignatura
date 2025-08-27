@@ -12,6 +12,6 @@ public class Person {
     }
 
     public String showInfo(){
-        return "Name: " + name + ", Age: " + age;
+        return "Persona\nNombre: " + name + ", Edad: " + age + "\n";
     }
 }
