@@ -16,7 +16,7 @@ public class Estudiante {
     }
 
     public String mostrarInfoEstudiante(){
-        return "Estudiante\n" + nombre + "\n" + matricula + "\n" + promedio + "\n" + "aprobo: " + aproboONo() + "\n";
+        return "Estudiante\n" + "\t" + nombre + "\n" + matricula + "\n" + promedio + "\n" + "aprobo: " + aproboONo() + "\n";
     }
 }
 

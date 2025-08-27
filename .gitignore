@@ -3,12 +3,19 @@
 .idea/
 *.iml
 out/
+.mvn/
 
 # Compiled files
 *.class
 
+# Maven build output
+target/
+
+
 # Logs
 *.log
+*.tmp
+*.swp
 
 # OS
 .DS_Store
@@ -18,3 +25,6 @@ Thumbs.db
 # pdf's , asignaciones
 docs/moodle
 docs/.obsidian
+
+# code snippets screenshots 
+*.png
