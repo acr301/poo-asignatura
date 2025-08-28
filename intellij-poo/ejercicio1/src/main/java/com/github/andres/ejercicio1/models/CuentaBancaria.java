@@ -1,4 +1,4 @@
-package models;
+package com.github.andres.ejercicio1.models;
 
 public class CuentaBancaria {
     private String titular;

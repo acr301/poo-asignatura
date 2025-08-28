@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>ej-guiado-creacion-proyecto</module>
+        <module>ejercicio1</module>
         <module>cap2-cap3-practica</module>
     </modules>
 
