@@ -3,15 +3,11 @@
 Este repositorio contiene ejercicios de programación orientada a objetos organizados como un proyecto **multi-módulo de Maven**.  
 Cada capítulo o actividad está separado en su propio módulo independiente.
 
-El wrapper de Maven está instalado para garantizar compatibilidad y reproducibilidad.
-Usamos el OpenJDK 17.0.6 de MS. 
-Cada módulo que deberá llevar una clase main ejecutable tiene su propio `pom.xml` configurado con el plugin [Exec Maven Plugin](https://www.mojohaus.org/exec-maven-plugin/) 
-
-En el ámbito de IntelliJ + Maven entiéndase lo siguiente:
-Project > Module > (donde el source) Package y el Main > Models 
+El wrapper de Maven está para garantizar compatibilidad y reproducibilidad.
+Usa el OpenJDK 17.0.6 de MS y Maven 3.9.6
 
 ## Cómo instalar el proyecto 
-Desde el directorio raíz:
+Desde el directorio raíz `intellij-poo`:
 
 Si Unix: `$ ./mvnw clean install`
 Windows: `$ ./mvnw.cmd clean install`
@@ -20,9 +16,8 @@ Windows: `$ ./mvnw.cmd clean install`
 
 Cada módulo incluye:
 - `src/main/java` con las clases (`Main.java`, `models/`, etc.)
-- Cada módulo que deberá llevar una clase main ejecutable tiene su propio `pom.xml` configurado con el plugin [Exec Maven Plugin](https://www.mojohaus.org/exec-maven-plugin/) 
+- Su propio `pom.xml` con [Exec Maven Plugin](https://www.mojohaus.org/exec-maven-plugin/) configurado para correr Main con el mismo SDK que el proyecto raíz.
 
-En el ámbito de IntelliJ + Maven entiéndase lo siguiente:
 ## Cómo ejecutar un módulo 
 `$ cd nombremodulo`
 `$ ../mvnw exec:java`
