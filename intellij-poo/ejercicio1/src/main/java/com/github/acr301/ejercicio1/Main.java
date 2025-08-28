@@ -1,5 +1,5 @@
-package com.github.andres.ejercicio1;
-import com.github.andres.ejercicio1.models.*;
+package com.github.acr301.ejercicio1;
+import com.github.acr301.ejercicio1.models.*;
 
 public class Main {
     public static void main(String[] args) {

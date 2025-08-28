@@ -1,4 +1,4 @@
-package com.github.andres.ejercicio1.models;
+package com.github.acr301.ejercicio1.models;
 
 public class Coche {
     private String marca;

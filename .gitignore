@@ -26,5 +26,6 @@ Thumbs.db
 docs/moodle
 docs/.obsidian
 
-# code snippets screenshots 
+# code snippets screenshots
 *.png
+!docs/screenshots/*.png
