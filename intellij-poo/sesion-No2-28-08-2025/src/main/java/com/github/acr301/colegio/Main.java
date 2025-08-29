@@ -14,5 +14,10 @@ public class Main {
         nuevaCarrera.setPrecio(250.0);
 
         System.out.println(nuevaCarrera.getNombre());
+
+        // si no estuviera el ToString en Carrera.java, nos daría la dirección de memoria
+        // tambien nos agiliza no tener que usar getters/setters
+        System.out.println(conocidaCarrera);
+
     }
 }

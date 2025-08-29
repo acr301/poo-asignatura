@@ -38,4 +38,14 @@ public class Carrera {
     public void setPrecio(double precio) {
         this.precio = precio;
     }
+
+    // principio de herencia: todas las clases tienen esto, como los dunder methods de python
+    @Override
+    public String toString() {
+        return "Carrera{" +
+                "nombre='" + nombre + '\'' +
+                ", codigo='" + codigo + '\'' +
+                ", precio=" + precio +
+                '}';
+    }
 }
