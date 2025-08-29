@@ -4,10 +4,10 @@ Este repositorio contiene ejercicios de programación orientada a objetos organi
 Cada capítulo o actividad está separado en su propio módulo independiente.
 
 El wrapper de Maven está para garantizar compatibilidad y reproducibilidad. La versión de Java sí es un requisito.
-Usa el OpenJDK 17.0.6 de MS y Maven 3.9.6
+Usa el SDK 21.0.8-tem y Maven 3.9.6
 
-## Cómo instalar el proyecto 
-Desde el directorio raíz `intellij-poo`:
+## Cómo usar el proyecto en tu máquina 
+Desde el directorio `intellij-poo`:
 
 Si Unix: `$ ./mvnw clean install`
 Windows: `$ ./mvnw.cmd clean install`
