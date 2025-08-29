@@ -1,10 +1,11 @@
-requires all functions to be defined in a class
+todas las funciones son definidas en una clase.
+se le llama método, puede tener cero o más parámetros
 
-zero or more parameters on method.
-must be explicitly typed  - no type inference for parameters
-just as the return type.
+explícitamente tipado - para los parámetros y el return
 
-a public access modifier must be used to allow a method to be called
+se necesita el modificador de acceso público, para poder llamar al método desde fuera de la clase.
+
+
 
 ```java
 class Calculator {
@@ -15,3 +16,5 @@ class Calculator {
 
 int sum = new Calculator().add(1,2);
 ```
+
+`javac *.java` -> `.class` bytecode para JVM que lo interpreta al ejecutar el programa con `java ClaseControladora` (aquella que lleve el `psvm`)

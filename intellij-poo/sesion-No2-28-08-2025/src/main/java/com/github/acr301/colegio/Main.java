@@ -1,6 +1,8 @@
 package com.github.acr301.colegio;
 import com.github.acr301.colegio.models.Carrera;
 
+import javax.swing.*;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -18,6 +20,6 @@ public class Main {
         // si no estuviera el ToString en Carrera.java, nos daría la dirección de memoria
         // tambien nos agiliza no tener que usar getters/setters
         System.out.println(conocidaCarrera);
-
+        JOptionPane.showMessageDialog(null,nuevaCarrera);
     }
 }
