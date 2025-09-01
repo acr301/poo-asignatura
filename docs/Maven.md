@@ -1,7 +1,10 @@
+y sus famosos `pom.xml`
 
-archetypes - project templating toolkit
-
-best maven archetype to learn a simple web app ? 
-
-oh okay, it uses [[Velocity]] as its templating engine which reminds me of Jinja2
+arquetipos  - un set de herramientas para hacer plantillas de proyectos. - usa  [[Velocity]] como su motor de plantillas, un recuerdo lejano a Jinja 2.
 https://velocity.apache.org/
+
+
+
+---
+
+ Las clases en el mismo paque- te se importan implícitamente en los archivos de código fuente de las otras clases del mismo paquete. 

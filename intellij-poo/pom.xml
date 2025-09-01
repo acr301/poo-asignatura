@@ -10,8 +10,9 @@
 
     <modules>
         <module>ejercicio1</module>
-        <module>cap2-cap3-practica</module>
+        <module>cap2cap3</module>
         <module>sesion-No2-28-08-2025</module>
+        <module>cap6</module>
     </modules>
 
     <properties>

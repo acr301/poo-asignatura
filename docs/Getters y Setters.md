@@ -1,0 +1,1 @@
+Para un control del acceso y presentación  de las variables de instancia. 
