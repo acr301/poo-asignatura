@@ -1,9 +1,9 @@
-https://www.openxava.org/doc/
-https://www.openxava.org/OpenXavaDoc/docs/index_es.html 
+[Documentación OpenXava](https://www.openxava.org/doc/)
+[Documentación OpenXava en español](https://www.openxava.org/OpenXavaDoc/docs/index_es.html)
 
 ---
 creamos nuestra entidad as per JPA en `model/nombreEntidad.java`
-a la clase le ponemos las  anotaciones, `@Entity` y `@Getter @Setter`
+a la clase le ponemos las  anotaciones, `@Entity` y `@Getter @Setter` - ver [Getters-Setters](Getters-Setters.md)
 
 vease como tira el error de que tiene que tener una primary key 
 
@@ -18,3 +18,7 @@ luego corremos todo con
 ```
 java -cp "target/demoOpenXava/WEB-INF/classes;target/invoicing/WEB-INF/lib/*" com.acr301.github.demoOpenXava.run.demoOpenXava
 ```
+
+---
+
+siguiendo el tutorial, después de jugar con los valores de la demo, lo siguiente es idear un [Modelo-dominio](Modelo-dominio.md)

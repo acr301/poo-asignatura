@@ -50,7 +50,7 @@ por ello, un método `static` no tiene manera de saber qué variables de instanc
 
 ---
 
-[[Pila de llamadas y marcos de pila]]
+[Pila-Llamadas-Marcos-Pila](Pila-Llamadas-Marcos-Pila.md)
 
 ---
 Promoción y conversión de argumentos
@@ -68,7 +68,7 @@ creo que `java.sql` el **Paquete JDBC**
 
 ---
 Práctica:
-[[Cap6-Practica]]
+[Cap6-Practica](Cap6-Practica.md)
 también incluye el juego Craps
 
 ---

@@ -4,6 +4,7 @@ se le llama método, puede tener cero o más parámetros
 explícitamente tipado - para los parámetros y el return
 
 se necesita el modificador de acceso público, para poder llamar al método desde fuera de la clase.
+ver: [Pila-Llamadas-Marcos-Pila](Pila-Llamadas-Marcos-Pila.md)
 
 
 
@@ -25,6 +26,7 @@ Un método static es especial, ya que puede llamarse sin tener que crear primero
 Los parámetros de un método son variables locales.
 
 ---
+
 
 | Tipos primitivos                                                                                 | Tipos (no primitivos) por referencia                                                                                                                                                                              |
 | ------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

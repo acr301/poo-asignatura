@@ -1,1 +1,1 @@
-bajo `resources/` , `persistence.xml`. [[OpenXava]] lo vincula a [[Naviox]]
+bajo `resources/` , `persistence.xml`. [OpenXava](OpenXava.md) lo vincula a [Naviox](Naviox.md)

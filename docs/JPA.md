@@ -5,4 +5,4 @@ permite mapear clases de Java (**entidades**) a tablas de base de datos, y usar 
 
 ## Entidades
 componente principal de JPA.
-es recomendado usar el [[Modelo de dominio]] para determinar bien sus relaciones y particularidades.
+es recomendado usar el [Modelo-dominio](Modelo-dominio.md) para determinar bien sus relaciones y particularidades.
